@@ -1,0 +1,22 @@
+{
+  "name": "e2ebootstrap",
+  "version": "1.0.0",
+  "description": "A boilerplate to setting up tests with webdrierio and mocha",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha "
+  },
+  "author": "ementalo",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "chai-as-promised": "^5.1.0",
+    "chimp-widgets": "^0.2.0",
+    "grunt": "^0.4.5",
+    "grunt-mocha": "^0.4.13",
+    "grunt-webdriver": "^0.5.2",
+    "mocha": "^2.2.5"
+  }
+}
