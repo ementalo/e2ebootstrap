@@ -6,6 +6,7 @@ module.exports = function (grunt) {
                 desiredCapabilities: {
                     browserName: 'chrome'
                 },
+                baseUrl: 'http://www.google.co.uk'
             },
             search: {
                 tests: ['test/support/before.js', 'test/spec/*.js'],
